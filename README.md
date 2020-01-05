@@ -12,6 +12,12 @@ To start using the app the user must download the following node packages
         c. node liri.js movie-this (movie)
         d. node lifi.js do-what-it-says
 
+Link to deployed version:
+https://kellie13060.github.io/liri-node-app/
+
+This app used JavaScript, API calls, node.js
+
+I developed this app for an assignment in my coding bootcamp. 
 
 
 1. Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
