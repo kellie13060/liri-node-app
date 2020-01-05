@@ -64,7 +64,6 @@ function spotifySong(value) {
     if(!value){
         value = "The Sign";
     }
-    console.log(value);
     spotify
     .search({ type: 'track', query: value })
     .then(function(response) {
@@ -110,11 +109,11 @@ function movieThis(value) {
 }
 
 function doThis() {
+    //reads the random file
     fs.readFile("random.txt", "utf8", function(error, data) {
         if (error) {
             return console.log(error);
         }
-        console.log(data);
         var dataArr = data.split(',');
         spotifySong(dataArr[1]);
     });
